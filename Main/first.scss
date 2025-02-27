@@ -45,10 +45,16 @@ body {
       color: $hover-color !important;
     }
   }
+.navbar ul {
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+}
+  
 }
 
 .parallax-container {
-  background-color: $primary-color;
+  background-image: url(photo/DALL·E\ 2025-02-24\ 16.25.51\ -\ A\ cyberpunk-style\ depiction\ of\ GUM\ and\ TSUM\ shopping\ centers\ in\ Bishkek\,\ Kyrgyzstan\ at\ night.\ Neon\ lights\ cover\ the\ buildings\,\ with\ futuristic\ hologra.webp);
   background-position: fixed center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -150,4 +156,9 @@ body {
   background-color: $primary-color;
   @include flex-center;
   gap: 15px;
+}
+.social-buttons a {
+  font-size: 2rem; 
+  color: #f3b73d; 
+  margin-right: 15px;
 }
