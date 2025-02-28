@@ -126,6 +126,30 @@ body {
   background: #f3b73d;
 }
 
+.services-list {
+  max-width: 600px;
+  margin-top: 30px;
+  text-align: left;
+  font-size: 18px;
+}
+.services-list li {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 3px solid #DAA520;
+}
+
+.projects-list {
+  max-width: 600px;
+  margin-top: 30px;
+  text-align: left;
+  font-size: 18px;
+}
+.projects-list li {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 3px solid #DAA520;
+}
+
 .social-buttons {
   background-color: #252A2E;
   display: flex;
@@ -138,4 +162,20 @@ body {
   font-size: 2rem;
   color: #f3b73d;
   margin-right: 15px;
+}
+
+.requisites .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.requisites .col-md-6 {
+  align-items: center;
+  text-align: left !important;
+}
+.requisites .col-md-6 p {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 3px solid #DAA520;
 }/*# sourceMappingURL=first.css.map */
