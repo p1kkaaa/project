@@ -152,6 +152,33 @@ body {
   }
 }
 
+.services-list {
+  max-width: 600px;
+  margin-top: 30px;
+  text-align: left;
+  font-size: 18px;
+  
+  li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #DAA520;
+  }
+}
+
+.projects-list {
+  max-width: 600px;
+  margin-top: 30px;
+  text-align: left;
+  font-size: 18px;
+  
+  li {
+      margin-bottom: 10px;
+      padding-left: 10px;
+      border-left: 3px solid #DAA520;
+  }
+}
+
+
 .social-buttons {
   background-color: $primary-color;
   @include flex-center;
@@ -161,4 +188,21 @@ body {
   font-size: 2rem; 
   color: #f3b73d; 
   margin-right: 15px;
+}
+
+.requisites .row {
+  display: flex;
+  justify-content: center; // Центрирует содержимое по горизонтали
+  align-items: center; // Центрирует содержимое по вертикали
+}
+
+.requisites .col-md-6 {
+  align-items: center;
+  text-align: left !important;
+  
+  p {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #DAA520;
+  }
 }
