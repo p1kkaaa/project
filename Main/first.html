@@ -6,8 +6,7 @@
     <title>GIS PRO</title>
     <link rel="stylesheet" href="first.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
@@ -18,7 +17,7 @@
 
 <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand animate__animated animate__fadeInLeft wow" href="#">
             <img src="logo/logo.png" alt="Logo" width="40" height="35">
             GIS pro
         </a>
@@ -26,7 +25,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <ul class="navbar-nav"> 
+        <ul class="navbar-nav animate__animated animate__fadeInRight wow"> 
             <li class="nav-item"><a class="nav-link" href="#">Новости</a></li>
             <li class="nav-item"><a class="nav-link" href="#">О нас</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Проекты</a></li>
@@ -45,15 +44,15 @@
 </div>
 
 <div class="about-block1 text-center">
-    <h3 class="fw-bold mb-4">О нас</h3>
-    <p>Мы создаем инновационные решения в области землеустройства и архитектурного проектирования, основываясь на многолетнем опыте и высоких стандартах качества.</p>
+    <h3 class="fw-bold mb-4 animate__animated animate__fadeInDown wow">О нас</h3>
+    <p class="animate__animated animate__fadeInRight wow">Мы создаем инновационные решения в области землеустройства и архитектурного проектирования, основываясь на многолетнем опыте и высоких стандартах качества.</p>
 </div>
 
 <div id="projects" class="projects-block text-center">
-    <h3 class="fw-bold mb-4">Наши проекты</h3>
+    <h3 class="fw-bold mb-4 animate__animated animate__fadeInUp wow">Наши проекты</h3>
     <div class="row">
         <div class="col-md-6">
-            <ul class="list-unstyled projects-list">
+            <ul class="list-unstyled projects-list animate__animated animate__fadeInLeft wow">
                 <li>📍 Общинное картирование пилотных айылных аймаков проекту «Развитие животноводства и рынка</li>
                 <li>🗺 Перевод картографических материалов г. Нарын в цифровой формат и создание геобазы данных по водоснабжению г. Нарын</li>
                 <li>📌 Обследование опасных природных процессов с использованием БПЛА и космических снимков для создания геобазы данных «Департамента мониторинга и прогнозирования МЧС КР»</li>
@@ -61,7 +60,7 @@
                 <li>🌍 Определение деградации пастбищ с использованием NDVI ДЗЗ (Landsat 5, 7, 8) за 25 лет (1991–2016) и выявление факторов деградации пастбищ Барскоонского АА</li>
             </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 animate__animated animate__fadeInRight wow">
             <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -86,19 +85,19 @@
 </div>
 
 <div class="achievement-block text-center">
-    <h3 class="fw-bold mb-4">Наши достижения</h3>
+    <h3 class="fw-bold mb-4 animate__animated animate__fadeInUp wow">Наши достижения</h3>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 animate__animated animate__fadeInLeft wow">
             <i class="bi bi-clock-history font-gold fs-2"></i>
             <h4 class="counter" data-value="11">0</h4>
             <p>Опыт на рынке</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 animate__animated animate__fadeInUp wow">
             <i class="bi bi-briefcase font-gold fs-2"></i>
             <h4 class="counter" data-value="100">0</h4>
             <p>Успешных проектов</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 animate__animated animate__fadeInRight wow">
             <i class="bi bi-person-check font-gold fs-2"></i>
             <h4 class="counter" data-value="1200">0</h4>
             <p>Довольных клиентов</p>
@@ -108,10 +107,10 @@
 
 
 <div class="services-block text-center">
-    <h3 class="fw-bold mb-4">Наши услуги</h3>
+    <h3 class="fw-bold mb-4 animate__animated animate__fadeInUp wow">Наши услуги</h3>
     <div class="row">
         <div class="col-md-6">
-            <ul class="list-unstyled services-list">
+            <ul class="list-unstyled services-list animate__animated animate__fadeInLeft wow">
                 <li>📍 Создание электронно-цифровой карты</li>
                 <li>🗺 Разработка 3D модели местности на основе географической информации</li>
                 <li>📌 Векторизация (оцифровка) различных картографических материалов</li>
@@ -119,7 +118,7 @@
                 <li>🌍 Публикация географической информации в сети интернет</li>
             </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 animate__animated animate__fadeInRight wow">
             <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -145,9 +144,9 @@
 
 
 <div class="requisites-block text-center requisites">
-    <h3 class="fw-bold mb-4">Реквизиты</h3>
+    <h3 class="fw-bold mb-4 animate__animated animate__fadeInUp wow">Реквизиты</h3>
     <div class="row">
-        <div class="col-md-6 text-start">
+        <div class="col-md-6 text-start animate__animated animate__fadeInLeft wow">
             <p><strong>Адрес:</strong> г. Бишкек, ул. Токтоналиева 4Б</p>
             <p><strong>Email:</strong> gisprokg@gmail.com</p>
             <p><strong>Телефон:</strong> +996 700 600 645</p>
@@ -155,7 +154,7 @@
             <p><strong>Телефон:</strong> +996 700 600 645</p>
         </div>
         <div class="col-md-6">
-            <div class="contact-form-container">
+            <div class="contact-form-container animate__animated animate__fadeInRight wow">
                 <h3>Свяжитесь с нами</h3>
                 <form action="send" method="POST">
                     <input type="text" name="name" placeholder="Ваше имя" required>
@@ -169,21 +168,29 @@
      </div>
 </div>
 
-<div id="map"></div>
+<div class="map-block">
+    <div class="animate__animated animate__fadeInUp wow" id="map"></div>
+</div>
+
+
 <div class="social-buttons">
-    <a href="https://www.instagram.com/gispro.kg/" target="_blank" class="bi bi-instagram"></a>
-    <a href="https://www.facebook.com/profile.php?id=100071721971114&refsrc=deprecated&_rdr" target="_blank" class="bi bi-facebook"></a>
+    <a href="https://www.instagram.com/gispro.kg/" target="_blank" class="bi bi-instagram animate__animated animate__fadeInLeft"></a>
+    <a href="https://www.facebook.com/profile.php?id=100071721971114&refsrc=deprecated&_rdr" target="_blank" class="bi bi-facebook animate__animated animate__fadeInRight"></a>
 </div>
 
 
 <footer class="custom-footer p-4 text-center">
-    <p>2025 &copy; GIS PRO. Все права защищены.</p>
+    <p class="animate__animated animate__fadeInUp wow">2025 &copy; GIS PRO. Все права защищены.</p>
     <a href="#">Вернуться к началу</a>
 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="first.js"></script>
     <script src="paralax.js"></script>
     <script src="carousel.js"></script>
     <script src="counter.js"></script>
+    <script src="wow.min.js"></script>
+    <script>new WOW().init();</script>
 </footer>
 </body>
 </html>
