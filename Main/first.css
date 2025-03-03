@@ -52,7 +52,7 @@ body {
   }
 }
 
-.about-block {
+.about-block1 {
   background-color: #252A2E;
   padding: 60px 20px;
   color: white;
@@ -126,28 +126,92 @@ body {
   background: #f3b73d;
 }
 
-.services-list {
+.services-block {
+  background-color: #252A2E;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+.services-block h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.services-block .services-list {
   max-width: 600px;
   margin-top: 30px;
   text-align: left;
   font-size: 18px;
 }
-.services-list li {
+.services-block .services-list li {
   margin-bottom: 10px;
   padding-left: 10px;
   border-left: 3px solid #DAA520;
+}
+.services-block #servicesCarousel {
+  margin-top: 15px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+.services-block #servicesCarousel .carousel-inner img {
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.projects-list {
+.projects-block {
+  background-color: #252A2E;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+.projects-block h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.projects-block .projects-list {
   max-width: 600px;
   margin-top: 30px;
   text-align: left;
   font-size: 18px;
 }
-.projects-list li {
+.projects-block .projects-list li {
   margin-bottom: 10px;
   padding-left: 10px;
   border-left: 3px solid #DAA520;
+}
+.projects-block #projectCarousel {
+  margin-top: 30px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+.projects-block #projectCarousel .carousel-inner img {
+  max-height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.achievement-block {
+  background-color: #252A2E;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+.achievement-block h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.requisites-block {
+  background-color: #252A2E;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+.requisites-block h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .social-buttons {
@@ -178,4 +242,10 @@ body {
   margin-bottom: 10px;
   padding-left: 10px;
   border-left: 3px solid #DAA520;
+}
+
+.counter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
 }/*# sourceMappingURL=first.css.map */
