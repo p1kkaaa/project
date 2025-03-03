@@ -77,11 +77,13 @@ body {
   }
 }
 
-.about-block {
+.about-block1 {
   background-color: $primary-color;
   padding: 60px 20px;
   color: $text-color;
 }
+
+
 
 .font-gold {
   color: $hover-color;
@@ -152,18 +154,57 @@ body {
   }
 }
 
-.services-list {
-  max-width: 600px;
-  margin-top: 30px;
-  text-align: left;
-  font-size: 18px;
-  
-  li {
-    margin-bottom: 10px;
-    padding-left: 10px;
-    border-left: 3px solid #DAA520;
+//1block
+.services-block {
+  background-color: $primary-color;
+  padding: 60px 20px;
+  color: $text-color;
+  text-align: center;
+
+  h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .services-list {
+    max-width: 600px;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 18px;
+    
+    li {
+        margin-bottom: 10px;
+        padding-left: 10px;
+        border-left: 3px solid #DAA520;
+    }
+  }
+
+  #servicesCarousel {
+    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: $box-shadow-dark;
+
+    .carousel-inner {
+      img {
+        max-height: 300px;
+        object-fit: cover;
+      }
+    }
   }
 }
+
+//2block
+.projects-block {
+  background-color: $primary-color;
+  padding: 60px 20px;
+  color: $text-color;
+  text-align: center;
+
+  h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
 
 .projects-list {
   max-width: 600px;
@@ -178,6 +219,45 @@ body {
   }
 }
 
+#projectCarousel {
+  margin-top: 30px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: $box-shadow-dark;
+
+  .carousel-inner {
+      img {
+        max-height: 800px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+//3block
+.achievement-block {
+  background-color: $primary-color;
+  padding: 60px 20px;
+  color: $text-color;
+  text-align: center;
+
+  h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+//4block
+.requisites-block {
+  background-color: $primary-color;
+  padding: 60px 20px;
+  color: $text-color;
+  text-align: center;
+
+  h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
 
 .social-buttons {
   background-color: $primary-color;
@@ -192,8 +272,8 @@ body {
 
 .requisites .row {
   display: flex;
-  justify-content: center; // Центрирует содержимое по горизонтали
-  align-items: center; // Центрирует содержимое по вертикали
+  justify-content: center; 
+  align-items: center; 
 }
 
 .requisites .col-md-6 {
@@ -206,3 +286,11 @@ body {
     border-left: 3px solid #DAA520;
   }
 }
+
+.counter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: $text-color;
+}
+
+
