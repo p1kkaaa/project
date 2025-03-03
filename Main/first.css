@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
+  background-color: #252A2E !important;
   color: white;
-  background-color: #252A2E;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
@@ -74,7 +74,10 @@ body {
   color: #f3b73d;
 }
 
-#map {
+.map-block {
+  background-color: #252A2E;
+}
+.map-block #map {
   height: 300px;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -82,7 +85,7 @@ body {
   min-height: 250px;
 }
 @media (max-width: 768px) {
-  #map {
+  .map-block #map {
     height: 200px;
     min-height: 200px;
     max-width: 100%;
@@ -215,6 +218,7 @@ body {
 }
 
 .social-buttons {
+  margin-top: 30px;
   background-color: #252A2E;
   display: flex;
   justify-content: center;
